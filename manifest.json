@@ -7,13 +7,13 @@
   "homepage_url": "http://tifslama.com/",
 
   "browser_action": {
-    "default_icon": "helium_logo.png",
+    "default_icon": "helium_logo_2x.png",
     // should be a 19px x 19px PNG file
     "default_popup": "popup.html"
   },
 
   "background": {
-    "scripts": ["background.js"],
+    "page": "background.html",
     "persistent": false
 },
 
@@ -27,6 +27,10 @@
 ],
 
   "permissions": [
+    "background",
+    "<all_urls>",
+    "file:///*/*",
+    "file://*/*",
     "http://*/*",
     "activeTab",
     "pageCapture"
