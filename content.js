@@ -42,8 +42,6 @@ $("body").prepend("<audio id='deflating_1' preload='auto' src='http://www.tonycu
     if (event.target == this){
       // inflate the hovered-over element
       $(this).css("transform", "scale(2)").css("transition-duration", "4s");
-      chrome.extension.sendMessage({action: "play"});
-      // console.log("INFLATING IS BELOW!")
       console.log($("audio"));
       // console.dir($("#inflating_1"));
       // $("#inflating_1").play(); // this is showing up as undefined
@@ -55,6 +53,8 @@ $("body").prepend("<audio id='deflating_1' preload='auto' src='http://www.tonycu
       // this isn't being called
       remove = setTimeout(function(){
         _this.remove();
+        inflateTune.pause();
+        inflateTune.currentTime = 0;
       }, 2000);
       console.log("inflate! 2");
     }
@@ -64,6 +64,7 @@ $("body").prepend("<audio id='deflating_1' preload='auto' src='http://www.tonycu
   $("h1,h2,h3,h4,h5,h6,p,blockquote,a,li,figure,figcaption,img,button").on("mouseleave", function(){
 
     inflateTune.pause();
+    inflateTune.currentTime = 0;
     deflateTune.play();
 
     $(this).css("transform", "scale(1)").css("transition-duration", "2s");
