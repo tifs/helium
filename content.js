@@ -1,6 +1,11 @@
-
 $(document).ready(function(){
 
+$("body").prepend("<audio id='inflating_1' preload='auto' src='http://www.tonycuffe.com/mp3/pipers%20hut.mp3'</audio>");
+$("body").prepend("<audio id='deflating_1' preload='auto' src='http://www.tonycuffe.com/mp3/tail%20toddle.mp3'</audio>");
+  var inflateTune = document.getElementById('inflating_1');
+  var deflateTune = document.getElementById('deflating_1');
+
+  // console.dir(x)
   // var audioEl = document.createElement('audio');
   // audioEl.setAttribute("preload", "auto");
   // audioEl.setAttribute ("src", "/Users/tifslama/Code/week11/heliuminflating_1.mp3");
@@ -38,10 +43,15 @@ $(document).ready(function(){
       // inflate the hovered-over element
       $(this).css("transform", "scale(2)").css("transition-duration", "4s");
       chrome.extension.sendMessage({action: "play"});
-      console.log("inflate! 1");
-      $("#inflating_1").play(); // this is showing up as undefined
+      // console.log("INFLATING IS BELOW!")
+      console.log($("audio"));
+      // console.dir($("#inflating_1"));
+      // $("#inflating_1").play(); // this is showing up as undefined
       _this = $(this);
 
+      inflateTune.play();
+      deflateTune.pause();
+      deflateTune.currentTime = 0;
       // this isn't being called
       remove = setTimeout(function(){
         _this.remove();
@@ -52,10 +62,20 @@ $(document).ready(function(){
 
 
   $("h1,h2,h3,h4,h5,h6,p,blockquote,a,li,figure,figcaption,img,button").on("mouseleave", function(){
+
+    inflateTune.pause();
+    deflateTune.play();
+
     $(this).css("transform", "scale(1)").css("transition-duration", "2s");
+    $(this).bind("transitionend animationend webkitTransitionEnd oTransitionEnd MSTransitionEnd", function(){
+      deflateTune.pause();
+      deflateTune.currentTime = 0;
+    });
+
     clearTimeout(remove);
-    console.log($(this));
-    console.log("deflate!");
+
+    // console.log($(this));
+    // console.log("deflate!");
   });
 });
 
@@ -64,15 +84,15 @@ $(document).ready(function(){
 
 // <style>
 // .inflate {
-// 	-webkit-transform: scale(3) rotate(10deg);
-// 	transition-duration: 5s
+//  -webkit-transform: scale(3) rotate(10deg);
+//  transition-duration: 5s
 // }
 
 // .deflate {
-// 	-ms-transform: scale(4,2);
-// 	-webkit-transform: scale(4,2);
-// 	transform: scale(4,2);
-// 	transition-duration: 2s
+//  -ms-transform: scale(4,2);
+//  -webkit-transform: scale(4,2);
+//  transform: scale(4,2);
+//  transition-duration: 2s
 // }
 
 // </style>
