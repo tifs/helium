@@ -1,40 +1,12 @@
-// var inflateElement = document.createElement('audio');
-//   inflateElement.setAttribute("preload", "auto");
-//   inflateElement.setAttribute("id", "inflating_1");
-//   inflateElement.autobuffer = true;
+// chrome.browserAction.onClicked.addListener(function (tab) { //Fired when User Clicks ICON
+//     if (tab.url.indexOf("http://*/*") != -1) { // Inspect whether the place where user clicked matches with our list of URL
+//         console.log("background.js is running");
+//         chrome.tabs.executeScript(tab.id, {
+//             "file": "content.js"
+//         }, function () { // Execute your code
 
-// var inflateSource = document.createElement('source');
-//   inflateSource.type= 'audio/mpeg';
-//   inflateSource.src= '/Users/tifslama/Code/week11/helium/inflating_1.mp3';
-//   inflateElement.appendChild(inflateSource);
+//             console.log("content.js ran...just to tell you again"); // Notification on Completion
+//         });
+//     }
+// });
 
-//  chrome.extension.onMessage.addListener(
-//   function(request, sender, sendResponse) {
-//     if (request.action == "play"){
-//         inflateElement.load();
-//         inflateElement.play();
-//         }
-//   });
-
-
-
-// var inflateElement = document.createElement('audio');
-// inflateElement.setAttribute("preload", "auto");
-// inflateElement.setAttribute("id", "inflating_1");
-// inflateElement.autobuffer = true;
-
-// var inflateSource = document.createElement('source');
-// inflateSource.type= 'audio/mpeg';
-// inflateSource.src= '/Users/tifslama/Code/week11/helium/inflating_1.mp3';
-// inflateElement.appendChild(inflateSource);
-
-
-// var deflateElement = document.createElement('audio');
-// deflateElement.setAttribute("preload", "auto");
-// deflateElement.setAttribute("id", "deflating_1");
-// audioEl.autobuffer = true;
-
-// var deflateSource = document.createElement('source');
-// deflateSource.type= 'audio/mpeg';
-// deflateSource.src= '/Users/tifslama/Code/week11/helium/deflating_1.mp3';
-// deflateElement.appendChild(deflateSource);

@@ -1,30 +1,30 @@
 {
   "manifest_version": 2,
-
   "name": "Helium!",
   "description": "Inflate the internet",
   "version": "1.0",
   "homepage_url": "http://tifslama.com/",
 
   "browser_action": {
-    "default_icon": "helium_logo_2x.png",
+    "name": "Mouseover to inflate",
+    "default_icon": "helium_logo_2x.png"
     // should be a 19px x 19px PNG file
-    "default_popup": "popup.html"
+    // "default_popup": "popup.html"
   },
 
   "background": {
     "page": "background.html",
+    // "js": ["jquery-1.11.1.min.js", "background.js"],
     "persistent": false
-},
+  },
 
   "content_scripts": [
     {
         "matches": ["http://*/*", "https://*/*"],
-        "run_at": "document_idle",
         "css": ["style.css"],
         "js": ["jquery-1.11.1.min.js", "content.js"]
     }
-],
+  ],
 
   "permissions": [
     "background",
