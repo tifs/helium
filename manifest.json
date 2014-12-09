@@ -7,7 +7,7 @@
 
   "browser_action": {
     "name": "Mouseover to inflate",
-    "default_icon": "helium_logo_2x.png"
+    "default_icon": "helium_32_off.png"
   },
 
   "background": {
