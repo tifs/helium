@@ -10,6 +10,8 @@ chrome.browserAction.onClicked.addListener(function(activeTab) {
     }
     else{
       chrome.browserAction.setIcon({path: "helium_32_off.png", tabId:activeTab.id});
+      // var elem = document.getElementsByTagName("script");
+      // elem[0].src = "";
       chrome.tabs.executeScript(null, {file: "clear.js"});
     }
 });

@@ -22,7 +22,6 @@ $(document).ready(function(){
         // inflate the hovered-over element
         $(this).css("transform", "scale(2)").css("transition-duration", "4s");
         console.log($("audio"));
-        // console.dir($("#inflating_1"));
         // $("#inflating_1").play(); // this is showing up as undefined
         _this = $(this);
         var inflateTune = document.getElementById('inflating_'+ Math.ceil(Math.random()*4));
@@ -34,7 +33,6 @@ $(document).ready(function(){
           _this.remove();
           inflateTune.pause();
           inflateTune.currentTime = 0;
-          // popTune.play();
         }, 2000);
         console.log(inflateTune);
       }
@@ -55,20 +53,6 @@ $(document).ready(function(){
         deflateTune.currentTime = 0;
       });
       $(this).removeClass("shake");
-
       clearTimeout(remove);
-
-      // console.log($(this));
-      // console.log("deflate!");
     });
 });
-
-
-
-
-// // <style>
-// // .inflate {
-// //  -webkit-transform: scale(3) rotate(10deg);
-// //  transition-duration: 5s
-// // }
-// // </style>
