@@ -1,7 +1,6 @@
 var toggle = false;
 
 chrome.browserAction.onClicked.addListener(function(activeTab) {
-  // chrome.browserAction.setIcon(object details, function callback)
   toggle = !toggle;
     if(toggle){
       chrome.browserAction.setIcon({path: "helium_logo_19_on.png", tabId:activeTab.id});
@@ -10,8 +9,6 @@ chrome.browserAction.onClicked.addListener(function(activeTab) {
     }
     else{
       chrome.browserAction.setIcon({path: "helium_logo_19_off.png", tabId:activeTab.id});
-      // var elem = document.getElementsByTagName("script");
-      // elem[0].src = "";
       chrome.tabs.executeScript(null, {file: "clear.js"});
     }
 });

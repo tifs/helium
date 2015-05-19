@@ -1,5 +1,4 @@
-
-  // inflate audio files
+  // "inflate" audio files
   $("body").prepend("<audio id='inflating_1' preload='auto' src='https://s3-us-west-1.amazonaws.com/tifsprojects/helium/inflate_sfx/inflate_1.mp3?X-Amz-Date=20150210T065705Z&X-Amz-Expires=300&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Signature=4684f6025e176fa1c24c2e356a7ca0c84eef4574be36a9f40541c98946de342c&X-Amz-Credential=ASIAJ7NDZGYWUGLBZZSQ/20150210/us-west-1/s3/aws4_request&X-Amz-SignedHeaders=Host&x-amz-security-token=AQoDYXdzEG8akAJ4oAgeFBqH1tLjlrOT%2BHK%2BO%2BI4a%2BnYBVu7Jk5GTOUMikwxFLSgkXk0Kr2sfkbL13A3C8mZi/RmoUTIMOWNUhL%2BJELrGrsK21xV%2Bd7MqdeGVfx6kMWLZp8juE1nBLuhPB0L85Ae0v1DrueJfd3meryIun4Fp5H15t%2B0gjRktQ5LJbTVm9hRf0YFaHKbdaJfzKJ7P4aK5MrxmBvSDxG87R2JjPUo4UmJb7juNjeaX7GKuolcw7LzHGLEKrqkxcSti/6mEq/jO4XjZC40QpxTVamiEHgKmpmlDwtYHRXaKQSSDnxDOmBXyJn/iOv2WW4x8fWWmj4ntRzcN/FMQWLdN91mo7Mvd73VetPEBOlR0NnUMyDrweamBQ%3D%3D'</audio>");
   $("body").prepend("<audio id='inflating_2' preload='auto' src='https://s3-us-west-1.amazonaws.com/tifsprojects/helium/inflate_sfx/inflate_2.mp3?X-Amz-Date=20150210T070641Z&X-Amz-Expires=300&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Signature=1e537cef254148d50104fba200b2a60e8c7fd290bf3e2ed838a49236355c12c5&X-Amz-Credential=ASIAJ7NDZGYWUGLBZZSQ/20150210/us-west-1/s3/aws4_request&X-Amz-SignedHeaders=Host&x-amz-security-token=AQoDYXdzEG8akAJ4oAgeFBqH1tLjlrOT%2BHK%2BO%2BI4a%2BnYBVu7Jk5GTOUMikwxFLSgkXk0Kr2sfkbL13A3C8mZi/RmoUTIMOWNUhL%2BJELrGrsK21xV%2Bd7MqdeGVfx6kMWLZp8juE1nBLuhPB0L85Ae0v1DrueJfd3meryIun4Fp5H15t%2B0gjRktQ5LJbTVm9hRf0YFaHKbdaJfzKJ7P4aK5MrxmBvSDxG87R2JjPUo4UmJb7juNjeaX7GKuolcw7LzHGLEKrqkxcSti/6mEq/jO4XjZC40QpxTVamiEHgKmpmlDwtYHRXaKQSSDnxDOmBXyJn/iOv2WW4x8fWWmj4ntRzcN/FMQWLdN91mo7Mvd73VetPEBOlR0NnUMyDrweamBQ%3D%3D'</audio>");
   $("body").prepend("<audio id='inflating_3' preload='auto' src='https://s3-us-west-1.amazonaws.com/tifsprojects/helium/inflate_sfx/inflate_3.mp3?X-Amz-Date=20150210T070645Z&X-Amz-Expires=300&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Signature=bbff0fd9f36d0f7d26d1159b680bb7def873873021fc848b2907f702ff6583c2&X-Amz-Credential=ASIAJ7NDZGYWUGLBZZSQ/20150210/us-west-1/s3/aws4_request&X-Amz-SignedHeaders=Host&x-amz-security-token=AQoDYXdzEG8akAJ4oAgeFBqH1tLjlrOT%2BHK%2BO%2BI4a%2BnYBVu7Jk5GTOUMikwxFLSgkXk0Kr2sfkbL13A3C8mZi/RmoUTIMOWNUhL%2BJELrGrsK21xV%2Bd7MqdeGVfx6kMWLZp8juE1nBLuhPB0L85Ae0v1DrueJfd3meryIun4Fp5H15t%2B0gjRktQ5LJbTVm9hRf0YFaHKbdaJfzKJ7P4aK5MrxmBvSDxG87R2JjPUo4UmJb7juNjeaX7GKuolcw7LzHGLEKrqkxcSti/6mEq/jO4XjZC40QpxTVamiEHgKmpmlDwtYHRXaKQSSDnxDOmBXyJn/iOv2WW4x8fWWmj4ntRzcN/FMQWLdN91mo7Mvd73VetPEBOlR0NnUMyDrweamBQ%3D%3D'</audio>");
@@ -8,7 +7,8 @@
   $("body").prepend("<audio id='inflating_6' preload='auto' src='https://s3-us-west-1.amazonaws.com/tifsprojects/helium/inflate_sfx/inflate_6.mp3?X-Amz-Date=20150210T070656Z&X-Amz-Expires=300&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Signature=2186002aa6bf8e61ce9129233d2610634b6840b6e2e06e069c05124e65e4a9ad&X-Amz-Credential=ASIAJ7NDZGYWUGLBZZSQ/20150210/us-west-1/s3/aws4_request&X-Amz-SignedHeaders=Host&x-amz-security-token=AQoDYXdzEG8akAJ4oAgeFBqH1tLjlrOT%2BHK%2BO%2BI4a%2BnYBVu7Jk5GTOUMikwxFLSgkXk0Kr2sfkbL13A3C8mZi/RmoUTIMOWNUhL%2BJELrGrsK21xV%2Bd7MqdeGVfx6kMWLZp8juE1nBLuhPB0L85Ae0v1DrueJfd3meryIun4Fp5H15t%2B0gjRktQ5LJbTVm9hRf0YFaHKbdaJfzKJ7P4aK5MrxmBvSDxG87R2JjPUo4UmJb7juNjeaX7GKuolcw7LzHGLEKrqkxcSti/6mEq/jO4XjZC40QpxTVamiEHgKmpmlDwtYHRXaKQSSDnxDOmBXyJn/iOv2WW4x8fWWmj4ntRzcN/FMQWLdN91mo7Mvd73VetPEBOlR0NnUMyDrweamBQ%3D%3D'</audio>");
   $("body").prepend("<audio id='inflating_7' preload='auto' src='https://s3-us-west-1.amazonaws.com/tifsprojects/helium/inflate_sfx/inflate_7.mp3?X-Amz-Date=20150210T070659Z&X-Amz-Expires=300&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Signature=592e5aae633459dc3db156c4ebd0069b0b838494f9252ed0ce7b7190d3f73675&X-Amz-Credential=ASIAJ7NDZGYWUGLBZZSQ/20150210/us-west-1/s3/aws4_request&X-Amz-SignedHeaders=Host&x-amz-security-token=AQoDYXdzEG8akAJ4oAgeFBqH1tLjlrOT%2BHK%2BO%2BI4a%2BnYBVu7Jk5GTOUMikwxFLSgkXk0Kr2sfkbL13A3C8mZi/RmoUTIMOWNUhL%2BJELrGrsK21xV%2Bd7MqdeGVfx6kMWLZp8juE1nBLuhPB0L85Ae0v1DrueJfd3meryIun4Fp5H15t%2B0gjRktQ5LJbTVm9hRf0YFaHKbdaJfzKJ7P4aK5MrxmBvSDxG87R2JjPUo4UmJb7juNjeaX7GKuolcw7LzHGLEKrqkxcSti/6mEq/jO4XjZC40QpxTVamiEHgKmpmlDwtYHRXaKQSSDnxDOmBXyJn/iOv2WW4x8fWWmj4ntRzcN/FMQWLdN91mo7Mvd73VetPEBOlR0NnUMyDrweamBQ%3D%3D'</audio>");
   $("body").prepend("<audio id='inflating_8' preload='auto' src='https://s3-us-west-1.amazonaws.com/tifsprojects/helium/inflate_sfx/inflate_8.mp3?X-Amz-Date=20150210T070702Z&X-Amz-Expires=300&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Signature=e5a0f636f1414ce050a901bc8d5c43aa11cae237edfc549ce312c65af6e90ed4&X-Amz-Credential=ASIAJ7NDZGYWUGLBZZSQ/20150210/us-west-1/s3/aws4_request&X-Amz-SignedHeaders=Host&x-amz-security-token=AQoDYXdzEG8akAJ4oAgeFBqH1tLjlrOT%2BHK%2BO%2BI4a%2BnYBVu7Jk5GTOUMikwxFLSgkXk0Kr2sfkbL13A3C8mZi/RmoUTIMOWNUhL%2BJELrGrsK21xV%2Bd7MqdeGVfx6kMWLZp8juE1nBLuhPB0L85Ae0v1DrueJfd3meryIun4Fp5H15t%2B0gjRktQ5LJbTVm9hRf0YFaHKbdaJfzKJ7P4aK5MrxmBvSDxG87R2JjPUo4UmJb7juNjeaX7GKuolcw7LzHGLEKrqkxcSti/6mEq/jO4XjZC40QpxTVamiEHgKmpmlDwtYHRXaKQSSDnxDOmBXyJn/iOv2WW4x8fWWmj4ntRzcN/FMQWLdN91mo7Mvd73VetPEBOlR0NnUMyDrweamBQ%3D%3D'</audio>");
-  // deflate audio files
+
+  // "deflate" audio files
   $("body").prepend("<audio id='deflating_1' preload='auto' src='https://s3-us-west-1.amazonaws.com/tifsprojects/helium/delfate_sfx/deflate_1.mp3?X-Amz-Date=20150210T065721Z&X-Amz-Expires=300&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Signature=72a5d9dc5f2b5c03f20e0170e9ace8fcc0a9f8d46a2c9d7a6f6ddeda93beddb8&X-Amz-Credential=ASIAJ7NDZGYWUGLBZZSQ/20150210/us-west-1/s3/aws4_request&X-Amz-SignedHeaders=Host&x-amz-security-token=AQoDYXdzEG8akAJ4oAgeFBqH1tLjlrOT%2BHK%2BO%2BI4a%2BnYBVu7Jk5GTOUMikwxFLSgkXk0Kr2sfkbL13A3C8mZi/RmoUTIMOWNUhL%2BJELrGrsK21xV%2Bd7MqdeGVfx6kMWLZp8juE1nBLuhPB0L85Ae0v1DrueJfd3meryIun4Fp5H15t%2B0gjRktQ5LJbTVm9hRf0YFaHKbdaJfzKJ7P4aK5MrxmBvSDxG87R2JjPUo4UmJb7juNjeaX7GKuolcw7LzHGLEKrqkxcSti/6mEq/jO4XjZC40QpxTVamiEHgKmpmlDwtYHRXaKQSSDnxDOmBXyJn/iOv2WW4x8fWWmj4ntRzcN/FMQWLdN91mo7Mvd73VetPEBOlR0NnUMyDrweamBQ%3D%3D'</audio>");
   $("body").prepend("<audio id='deflating_2' preload='auto' src='https://s3-us-west-1.amazonaws.com/tifsprojects/helium/delfate_sfx/deflate_2.mp3?X-Amz-Date=20150210T070243Z&X-Amz-Expires=300&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Signature=78bf78c47102708db6ea9945cebd4b7756fcdfb5cdad50383bac7c263ccaeabe&X-Amz-Credential=ASIAJ7NDZGYWUGLBZZSQ/20150210/us-west-1/s3/aws4_request&X-Amz-SignedHeaders=Host&x-amz-security-token=AQoDYXdzEG8akAJ4oAgeFBqH1tLjlrOT%2BHK%2BO%2BI4a%2BnYBVu7Jk5GTOUMikwxFLSgkXk0Kr2sfkbL13A3C8mZi/RmoUTIMOWNUhL%2BJELrGrsK21xV%2Bd7MqdeGVfx6kMWLZp8juE1nBLuhPB0L85Ae0v1DrueJfd3meryIun4Fp5H15t%2B0gjRktQ5LJbTVm9hRf0YFaHKbdaJfzKJ7P4aK5MrxmBvSDxG87R2JjPUo4UmJb7juNjeaX7GKuolcw7LzHGLEKrqkxcSti/6mEq/jO4XjZC40QpxTVamiEHgKmpmlDwtYHRXaKQSSDnxDOmBXyJn/iOv2WW4x8fWWmj4ntRzcN/FMQWLdN91mo7Mvd73VetPEBOlR0NnUMyDrweamBQ%3D%3D'</audio>");
   $("body").prepend("<audio id='deflating_3' preload='auto' src='https://s3-us-west-1.amazonaws.com/tifsprojects/helium/delfate_sfx/deflate_3.mp3?X-Amz-Date=20150210T070249Z&X-Amz-Expires=300&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Signature=4f9ab45d92bd28f1c16620a4718a25d5d7b4c47b3f54fc2e420d37d428b1b7db&X-Amz-Credential=ASIAJ7NDZGYWUGLBZZSQ/20150210/us-west-1/s3/aws4_request&X-Amz-SignedHeaders=Host&x-amz-security-token=AQoDYXdzEG8akAJ4oAgeFBqH1tLjlrOT%2BHK%2BO%2BI4a%2BnYBVu7Jk5GTOUMikwxFLSgkXk0Kr2sfkbL13A3C8mZi/RmoUTIMOWNUhL%2BJELrGrsK21xV%2Bd7MqdeGVfx6kMWLZp8juE1nBLuhPB0L85Ae0v1DrueJfd3meryIun4Fp5H15t%2B0gjRktQ5LJbTVm9hRf0YFaHKbdaJfzKJ7P4aK5MrxmBvSDxG87R2JjPUo4UmJb7juNjeaX7GKuolcw7LzHGLEKrqkxcSti/6mEq/jO4XjZC40QpxTVamiEHgKmpmlDwtYHRXaKQSSDnxDOmBXyJn/iOv2WW4x8fWWmj4ntRzcN/FMQWLdN91mo7Mvd73VetPEBOlR0NnUMyDrweamBQ%3D%3D'</audio>");
@@ -16,30 +16,32 @@
   $("body").prepend("<audio id='deflating_5' preload='auto' src='https://s3-us-west-1.amazonaws.com/tifsprojects/helium/delfate_sfx/deflate_5.mp3?X-Amz-Date=20150210T070257Z&X-Amz-Expires=300&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Signature=cd1f6474e1d37aa3d13a18ceedb6d1fd5603f4b5bb2d1d2a26fec19ff01354d8&X-Amz-Credential=ASIAJ7NDZGYWUGLBZZSQ/20150210/us-west-1/s3/aws4_request&X-Amz-SignedHeaders=Host&x-amz-security-token=AQoDYXdzEG8akAJ4oAgeFBqH1tLjlrOT%2BHK%2BO%2BI4a%2BnYBVu7Jk5GTOUMikwxFLSgkXk0Kr2sfkbL13A3C8mZi/RmoUTIMOWNUhL%2BJELrGrsK21xV%2Bd7MqdeGVfx6kMWLZp8juE1nBLuhPB0L85Ae0v1DrueJfd3meryIun4Fp5H15t%2B0gjRktQ5LJbTVm9hRf0YFaHKbdaJfzKJ7P4aK5MrxmBvSDxG87R2JjPUo4UmJb7juNjeaX7GKuolcw7LzHGLEKrqkxcSti/6mEq/jO4XjZC40QpxTVamiEHgKmpmlDwtYHRXaKQSSDnxDOmBXyJn/iOv2WW4x8fWWmj4ntRzcN/FMQWLdN91mo7Mvd73VetPEBOlR0NnUMyDrweamBQ%3D%3D'</audio>");
   $("body").prepend("<audio id='deflating_6' preload='auto' src='https://s3-us-west-1.amazonaws.com/tifsprojects/helium/delfate_sfx/deflate_6.mp3?X-Amz-Date=20150210T070301Z&X-Amz-Expires=300&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Signature=5f86a95f5d7199a1843245050d5b34d734855b3467cecbd905f0b65b07d2a2c7&X-Amz-Credential=ASIAJ7NDZGYWUGLBZZSQ/20150210/us-west-1/s3/aws4_request&X-Amz-SignedHeaders=Host&x-amz-security-token=AQoDYXdzEG8akAJ4oAgeFBqH1tLjlrOT%2BHK%2BO%2BI4a%2BnYBVu7Jk5GTOUMikwxFLSgkXk0Kr2sfkbL13A3C8mZi/RmoUTIMOWNUhL%2BJELrGrsK21xV%2Bd7MqdeGVfx6kMWLZp8juE1nBLuhPB0L85Ae0v1DrueJfd3meryIun4Fp5H15t%2B0gjRktQ5LJbTVm9hRf0YFaHKbdaJfzKJ7P4aK5MrxmBvSDxG87R2JjPUo4UmJb7juNjeaX7GKuolcw7LzHGLEKrqkxcSti/6mEq/jO4XjZC40QpxTVamiEHgKmpmlDwtYHRXaKQSSDnxDOmBXyJn/iOv2WW4x8fWWmj4ntRzcN/FMQWLdN91mo7Mvd73VetPEBOlR0NnUMyDrweamBQ%3D%3D'</audio>");
   $("body").prepend("<audio id='deflating_7' preload='auto' src='https://s3-us-west-1.amazonaws.com/tifsprojects/helium/delfate_sfx/deflate_7.mp3?X-Amz-Date=20150210T070305Z&X-Amz-Expires=300&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Signature=f24df8ab72647164e51795f468803b445d6a3acf1c467081477fae128ee2050f&X-Amz-Credential=ASIAJ7NDZGYWUGLBZZSQ/20150210/us-west-1/s3/aws4_request&X-Amz-SignedHeaders=Host&x-amz-security-token=AQoDYXdzEG8akAJ4oAgeFBqH1tLjlrOT%2BHK%2BO%2BI4a%2BnYBVu7Jk5GTOUMikwxFLSgkXk0Kr2sfkbL13A3C8mZi/RmoUTIMOWNUhL%2BJELrGrsK21xV%2Bd7MqdeGVfx6kMWLZp8juE1nBLuhPB0L85Ae0v1DrueJfd3meryIun4Fp5H15t%2B0gjRktQ5LJbTVm9hRf0YFaHKbdaJfzKJ7P4aK5MrxmBvSDxG87R2JjPUo4UmJb7juNjeaX7GKuolcw7LzHGLEKrqkxcSti/6mEq/jO4XjZC40QpxTVamiEHgKmpmlDwtYHRXaKQSSDnxDOmBXyJn/iOv2WW4x8fWWmj4ntRzcN/FMQWLdN91mo7Mvd73VetPEBOlR0NnUMyDrweamBQ%3D%3D'</audio>");
-  // pop audio files
+
+  // "pop" audio files
   $("body").prepend("<audio id='popping_1' preload='auto' src='https://s3-us-west-1.amazonaws.com/tifsprojects/helium/pop_sfx/pop_1.mp3?X-Amz-Date=20150210T070941Z&X-Amz-Expires=300&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Signature=40319b6abec1f16317a710f689e039c75a216f36d2bbc48d3c6b9dbb3902670a&X-Amz-Credential=ASIAJ7NDZGYWUGLBZZSQ/20150210/us-west-1/s3/aws4_request&X-Amz-SignedHeaders=Host&x-amz-security-token=AQoDYXdzEG8akAJ4oAgeFBqH1tLjlrOT%2BHK%2BO%2BI4a%2BnYBVu7Jk5GTOUMikwxFLSgkXk0Kr2sfkbL13A3C8mZi/RmoUTIMOWNUhL%2BJELrGrsK21xV%2Bd7MqdeGVfx6kMWLZp8juE1nBLuhPB0L85Ae0v1DrueJfd3meryIun4Fp5H15t%2B0gjRktQ5LJbTVm9hRf0YFaHKbdaJfzKJ7P4aK5MrxmBvSDxG87R2JjPUo4UmJb7juNjeaX7GKuolcw7LzHGLEKrqkxcSti/6mEq/jO4XjZC40QpxTVamiEHgKmpmlDwtYHRXaKQSSDnxDOmBXyJn/iOv2WW4x8fWWmj4ntRzcN/FMQWLdN91mo7Mvd73VetPEBOlR0NnUMyDrweamBQ%3D%3D'</audio>");
   $("body").prepend("<audio id='popping_2' preload='auto' src='https://s3-us-west-1.amazonaws.com/tifsprojects/helium/pop_sfx/pop_2.mp3?X-Amz-Date=20150210T070944Z&X-Amz-Expires=300&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Signature=f6e506f9c9b1e98f02d908f8bd7c57f33aaaa91e0ab25f610cf4a0a031f65795&X-Amz-Credential=ASIAJ7NDZGYWUGLBZZSQ/20150210/us-west-1/s3/aws4_request&X-Amz-SignedHeaders=Host&x-amz-security-token=AQoDYXdzEG8akAJ4oAgeFBqH1tLjlrOT%2BHK%2BO%2BI4a%2BnYBVu7Jk5GTOUMikwxFLSgkXk0Kr2sfkbL13A3C8mZi/RmoUTIMOWNUhL%2BJELrGrsK21xV%2Bd7MqdeGVfx6kMWLZp8juE1nBLuhPB0L85Ae0v1DrueJfd3meryIun4Fp5H15t%2B0gjRktQ5LJbTVm9hRf0YFaHKbdaJfzKJ7P4aK5MrxmBvSDxG87R2JjPUo4UmJb7juNjeaX7GKuolcw7LzHGLEKrqkxcSti/6mEq/jO4XjZC40QpxTVamiEHgKmpmlDwtYHRXaKQSSDnxDOmBXyJn/iOv2WW4x8fWWmj4ntRzcN/FMQWLdN91mo7Mvd73VetPEBOlR0NnUMyDrweamBQ%3D%3D'</audio>");
   $("body").prepend("<audio id='popping_3' preload='auto' src='https://s3-us-west-1.amazonaws.com/tifsprojects/helium/pop_sfx/pop_3.mp3?X-Amz-Date=20150210T070947Z&X-Amz-Expires=300&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Signature=d5c2ff741bac5f1dc8917367e211a74cc7fac51833eede97004816dbb0eebef5&X-Amz-Credential=ASIAJ7NDZGYWUGLBZZSQ/20150210/us-west-1/s3/aws4_request&X-Amz-SignedHeaders=Host&x-amz-security-token=AQoDYXdzEG8akAJ4oAgeFBqH1tLjlrOT%2BHK%2BO%2BI4a%2BnYBVu7Jk5GTOUMikwxFLSgkXk0Kr2sfkbL13A3C8mZi/RmoUTIMOWNUhL%2BJELrGrsK21xV%2Bd7MqdeGVfx6kMWLZp8juE1nBLuhPB0L85Ae0v1DrueJfd3meryIun4Fp5H15t%2B0gjRktQ5LJbTVm9hRf0YFaHKbdaJfzKJ7P4aK5MrxmBvSDxG87R2JjPUo4UmJb7juNjeaX7GKuolcw7LzHGLEKrqkxcSti/6mEq/jO4XjZC40QpxTVamiEHgKmpmlDwtYHRXaKQSSDnxDOmBXyJn/iOv2WW4x8fWWmj4ntRzcN/FMQWLdN91mo7Mvd73VetPEBOlR0NnUMyDrweamBQ%3D%3D'</audio>");
-  // var randomInflate = document.getElementById('inflating_'+ Math.ceil(Math.random()*4));
-  // var randomDeflate = document.getElementById('deflating_'+ Math.ceil(Math.random()*4));
 
   var remove;
 
-    // mouseenter any element and run this function
+    // targets all these elements and runs the following function when you mouse over it
     $("h1,h2,h3,h4,h5,h6,p,a,li,video,img,button,figcaption").mouseenter(function(event){
-      // targets only one mouse-entered element
+      // targets only the one specific mouse-entered element
       if (event.target == this){
-        // inflate only the hovered-over element
+        // "inflates" that element
         $(this).css("transform", "scale(3)").css("transition-duration", "4s");
         console.log($("audio"));
         // stores the specific 'this' to use later
         _this = $(this);
+        // selects a random "inflate", "deflate", or "pop" sound
         var inflateTune = document.getElementById('inflating_'+ Math.ceil(Math.random()*8));
         var deflateTune = document.getElementById('deflating_'+ Math.ceil(Math.random()*7));
         var popTune = document.getElementById('popping_'+ Math.ceil(Math.random()*3));
+        // plays that randomly chosen "inflate" sound
         inflateTune.play();
         deflateTune.pause();
         deflateTune.currentTime = 0;
+        // "pops" an element if it's "inflated" more than 4 seconds, and stops the "inflate" sound
         remove = setTimeout(function(){
           _this.remove();
           inflateTune.pause();
@@ -49,7 +51,7 @@
       }
     });
 
-
+    // plays the "deflate" sound if you mouse off an element, and stops the "inflate" sound
     $("h1,h2,h3,h4,h5,h6,p,a,li,video,img,button,figcaption").on("mouseleave", function(){
       var inflateTune = document.getElementById('inflating_'+ Math.ceil(Math.random()*4));
       var deflateTune = document.getElementById('deflating_'+ Math.ceil(Math.random()*4));
@@ -57,12 +59,15 @@
       inflateTune.currentTime = 0;
       deflateTune.play();
 
-      // $(this).addClass("shake");
+      // a css class "shake" that i'm not using (see more in the stylesheet)
+      // // $(this).addClass("shake");
+      // "deflates" the element back to normal size and resets the "deflate" sound
       $(this).css("transform", "scale(1)").css("transition-duration", "2s");
       $(this).bind("transitionend animationend webkitTransitionEnd oTransitionEnd MSTransitionEnd", function(){
         deflateTune.pause();
         deflateTune.currentTime = 0;
       });
-      // $(this).removeClass("shake");
+      // this removes the css class "shake" that i'm not using
+      // // $(this).removeClass("shake");
       clearTimeout(remove);
     });
