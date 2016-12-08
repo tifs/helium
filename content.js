@@ -1,4 +1,5 @@
-
+//preloading "yay" audio
+$("body").prepend("<audio id='yay_1' preload='auto' src='https://s3-us-west-1.amazonaws.com/tifsprojects/helium/yay_sfx/Helium_yay_sfx.mp3'</audio>");
 
 // preloading "inflate" audio
 $("body").prepend("<audio id='inflating_1' preload='auto' src='https://s3-us-west-1.amazonaws.com/tifsprojects/helium/inflate_sfx/Helium_inflate_1_sfx.mp3'</audio>");
@@ -24,7 +25,14 @@ $("body").prepend("<audio id='popping_1' preload='auto' src='https://s3-us-west-
 
 var remove;
 
-
+// runs the following function once the page loads
+$(document).ready(function() {
+  // select the "yay" sound
+  var yayTune = document.getElementById('yay_1');
+  // plays the "yay" sound
+  yayTune.play();
+  // console.log("yay!");
+});
 
 // targets all these elements and runs the following function when you mouse over it
 $("h1,h2,h3,h4,h5,h6,p,a,li,video,img,button,figcaption").mouseenter(function(event){
