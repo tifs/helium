@@ -31,7 +31,6 @@ $(document).ready(function() {
   var yayTune = document.getElementById('yay_1');
   // plays the "yay" sound
   yayTune.play();
-  // console.log("yay!");
 });
 
 // targets all these elements and runs the following function when you mouse over it
@@ -39,7 +38,8 @@ $("h1,h2,h3,h4,h5,h6,p,a,li,video,img,button,figcaption").mouseenter(function(ev
   // targets only the one specific mouse-entered element
   if (event.target == this){
     // "inflates" that element by changing its css
-    $(this).css("transform", "scale(3)").css("transition-duration", "2s");
+    $(this).css("transform", "scale(3)")
+           .css("transition-duration", "2s");
     console.log($("audio"));
     // stores the specific 'this' to use later
     _this = $(this);
@@ -88,7 +88,8 @@ $("h1,h2,h3,h4,h5,h6,p,a,li,video,img,button,figcaption").on("mouseleave", funct
 
 
   // "deflates" the element back to normal size and resets the "deflate" sound
-  $(this).css("transform", "scale(1)").css("transition-duration", "2.5s");
+  $(this).css("transform", "scale(1)")
+         .css("transition-duration", "2.5s");
   $(this).bind("transitionend animationend webkitTransitionEnd oTransitionEnd MSTransitionEnd", function(){
     deflateTune.pause();
     deflateTune.currentTime = 0;
