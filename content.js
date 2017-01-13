@@ -1,27 +1,43 @@
-//preloading "yay" audio
-$("body").prepend("<audio id='yay_1' preload='auto' src='https://s3-us-west-1.amazonaws.com/tifsprojects/helium/yay_sfx/Helium_yay_sfx.mp3'</audio>");
+// creating and preloading an audio element with yay sfx
+$("body").prepend("<audio id='yay_0' preload='auto' src='https://s3-us-west-1.amazonaws.com/tifsprojects/helium/yay_sfx/Helium_yay_0_sfx.mp3'></audio>");
 
-// preloading "inflate" audio
-$("body").prepend("<audio id='inflating_1' preload='auto' src='https://s3-us-west-1.amazonaws.com/tifsprojects/helium/inflate_sfx/Helium_inflate_1_sfx.mp3'</audio>");
-$("body").prepend("<audio id='inflating_2' preload='auto' src='https://s3-us-west-1.amazonaws.com/tifsprojects/helium/inflate_sfx/Helium_inflate_2_sfx.mp3'</audio>");
-$("body").prepend("<audio id='inflating_3' preload='auto' src='https://s3-us-west-1.amazonaws.com/tifsprojects/helium/inflate_sfx/Helium_inflate_3_sfx.mp3'</audio>");
-$("body").prepend("<audio id='inflating_4' preload='auto' src='https://s3-us-west-1.amazonaws.com/tifsprojects/helium/inflate_sfx/Helium_inflate_4_sfx.mp3'</audio>");
-$("body").prepend("<audio id='inflating_5' preload='auto' src='https://s3-us-west-1.amazonaws.com/tifsprojects/helium/inflate_sfx/Helium_inflate_5_sfx.mp3'</audio>");
-$("body").prepend("<audio id='inflating_6' preload='auto' src='https://s3-us-west-1.amazonaws.com/tifsprojects/helium/inflate_sfx/Helium_inflate_6_sfx.mp3'</audio>");
-$("body").prepend("<audio id='inflating_7' preload='auto' src='https://s3-us-west-1.amazonaws.com/tifsprojects/helium/inflate_sfx/Helium_inflate_7_sfx.mp3'</audio>");
-$("body").prepend("<audio id='inflating_8' preload='auto' src='https://s3-us-west-1.amazonaws.com/tifsprojects/helium/inflate_sfx/Helium_inflate_8_sfx.mp3'</audio>");
+// audio files for inflate sfx
+var inflatingUrls = [
+  "https://s3-us-west-1.amazonaws.com/tifsprojects/helium/inflate_sfx/Helium_inflate_0_sfx.mp3",
+  "https://s3-us-west-1.amazonaws.com/tifsprojects/helium/inflate_sfx/Helium_inflate_1_sfx.mp3",
+  "https://s3-us-west-1.amazonaws.com/tifsprojects/helium/inflate_sfx/Helium_inflate_2_sfx.mp3",
+  "https://s3-us-west-1.amazonaws.com/tifsprojects/helium/inflate_sfx/Helium_inflate_3_sfx.mp3",
+  "https://s3-us-west-1.amazonaws.com/tifsprojects/helium/inflate_sfx/Helium_inflate_4_sfx.mp3",
+  "https://s3-us-west-1.amazonaws.com/tifsprojects/helium/inflate_sfx/Helium_inflate_5_sfx.mp3",
+  "https://s3-us-west-1.amazonaws.com/tifsprojects/helium/inflate_sfx/Helium_inflate_6_sfx.mp3",
+  "https://s3-us-west-1.amazonaws.com/tifsprojects/helium/inflate_sfx/Helium_inflate_7_sfx.mp3"
+];
 
-// preloading "deflate" audio
-$("body").prepend("<audio id='deflating_1' preload='auto' src='https://s3-us-west-1.amazonaws.com/tifsprojects/helium/delfate_sfx/Helium_deflate_1_sfx.mp3'</audio>");
-$("body").prepend("<audio id='deflating_2' preload='auto' src='https://s3-us-west-1.amazonaws.com/tifsprojects/helium/delfate_sfx/Helium_deflate_2_sfx.mp3'</audio>");
-$("body").prepend("<audio id='deflating_3' preload='auto' src='https://s3-us-west-1.amazonaws.com/tifsprojects/helium/delfate_sfx/Helium_deflate_3_sfx.mp3'</audio>");
-$("body").prepend("<audio id='deflating_4' preload='auto' src='https://s3-us-west-1.amazonaws.com/tifsprojects/helium/delfate_sfx/Helium_deflate_4_sfx.mp3'</audio>");
-$("body").prepend("<audio id='deflating_5' preload='auto' src='https://s3-us-west-1.amazonaws.com/tifsprojects/helium/delfate_sfx/Helium_deflate_5_sfx.mp3'</audio>");
-$("body").prepend("<audio id='deflating_6' preload='auto' src='https://s3-us-west-1.amazonaws.com/tifsprojects/helium/delfate_sfx/Helium_deflate_6_sfx.mp3'</audio>");
-$("body").prepend("<audio id='deflating_7' preload='auto' src='https://s3-us-west-1.amazonaws.com/tifsprojects/helium/delfate_sfx/Helium_deflate_7_sfx.mp3'</audio>");
+// creating and preloading audio elements with inflate sfx that include unique and matching id and src attributes
+for (i = 0;i <= 7; i++) {
+  var inflateAudio = $("<audio>").attr("id","inflating_" + i).attr("src",inflatingUrls[i]);
+  $("body").prepend(inflateAudio);
+}
 
-// preloading "pop" audio
-$("body").prepend("<audio id='popping_1' preload='auto' src='https://s3-us-west-1.amazonaws.com/tifsprojects/helium/pop_sfx/Helium_pop_1_sfx.mp3'</audio>");
+// audio files for deflate sfx
+var deflatingUrls = [
+  "https://s3-us-west-1.amazonaws.com/tifsprojects/helium/delfate_sfx/Helium_deflate_0_sfx.mp3",
+  "https://s3-us-west-1.amazonaws.com/tifsprojects/helium/deflate_sfx/Helium_deflate_1_sfx.mp3",
+  "https://s3-us-west-1.amazonaws.com/tifsprojects/helium/deflate_sfx/Helium_deflate_2_sfx.mp3",
+  "https://s3-us-west-1.amazonaws.com/tifsprojects/helium/deflate_sfx/Helium_deflate_3_sfx.mp3",
+  "https://s3-us-west-1.amazonaws.com/tifsprojects/helium/deflate_sfx/Helium_deflate_4_sfx.mp3",
+  "https://s3-us-west-1.amazonaws.com/tifsprojects/helium/deflate_sfx/Helium_deflate_5_sfx.mp3",
+  "https://s3-us-west-1.amazonaws.com/tifsprojects/helium/deflate_sfx/Helium_deflate_6_sfx.mp3"
+];
+
+// creating and preloading audio elements with deflate sfx that include unique and matching id and src attributes
+for (i = 0;i <= 6; i++) {
+  var deflateAudio = $("<audio>").attr("id","deflating_" + i).attr("src",deflatingUrls[i]);
+  $("body").prepend(deflateAudio);
+}
+
+// creating and preloading an audio element with pop sfx
+$("body").prepend("<audio id='popping_0' preload='auto' src='https://s3-us-west-1.amazonaws.com/tifsprojects/helium/pop_sfx/Helium_pop_0_sfx.mp3'</audio>");
 
 var remove;
 
@@ -44,9 +60,9 @@ $("h1,h2,h3,h4,h5,h6,p,a,li,video,img,button,figcaption").mouseenter(function(ev
     // stores the specific 'this' to use later
     _this = $(this);
     // selects a random "inflate", "deflate", or "pop" sound
-    var inflateTune = document.getElementById('inflating_'+ Math.ceil(Math.random()*8));
-    var deflateTune = document.getElementById('deflating_'+ Math.ceil(Math.random()*7));
-    var popTune = document.getElementById('popping_1');
+    var inflateTune = document.getElementById('inflating_'+ Math.floor(Math.random()*8));
+    var deflateTune = document.getElementById('deflating_'+ Math.floor(Math.random()*7));
+    var popTune = document.getElementById('popping_0');
     // plays that randomly chosen "inflate" sound
     inflateTune.play();
     deflateTune.pause();
@@ -70,7 +86,7 @@ $("h1,h2,h3,h4,h5,h6,p,a,li,video,img,button,figcaption").click(function(event){
     // stores the specific 'this' to use later
     _this = $(this);
     // selects the "pop" sound
-    var popTune = document.getElementById('popping_1');
+    var popTune = document.getElementById('popping_0');
     // removes the clicked-on element from the dom
     _this.remove();
     // while playing the "pop" sound
@@ -80,8 +96,8 @@ $("h1,h2,h3,h4,h5,h6,p,a,li,video,img,button,figcaption").click(function(event){
 
 // plays the "deflate" sound if you mouse off an element, and stops the "inflate" sound
 $("h1,h2,h3,h4,h5,h6,p,a,li,video,img,button,figcaption").on("mouseleave", function(){
-  var inflateTune = document.getElementById('inflating_'+ Math.ceil(Math.random()*8));
-  var deflateTune = document.getElementById('deflating_'+ Math.ceil(Math.random()*7));
+  var inflateTune = document.getElementById('inflating_'+ Math.floor(Math.random()*8));
+  var deflateTune = document.getElementById('deflating_'+ Math.floor(Math.random()*7));
   inflateTune.pause();
   inflateTune.currentTime = 0;
   deflateTune.play();
