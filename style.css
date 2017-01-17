@@ -24,7 +24,7 @@
 }
 */
 
-@keyframes shake {
+/*@keyframes shake {
   from, to {
     transform: translate3d(0, 0, 0);
   }
@@ -81,4 +81,4 @@
 .jello {
   animation-name: jello;
   transform-origin: center;
-}
+}*/
