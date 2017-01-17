@@ -44,7 +44,7 @@ var remove;
 // runs the following function once the page loads
 $(document).ready(function() {
   // select the "yay" sound
-  var yayTune = document.getElementById('yay_1');
+  var yayTune = document.getElementById('yay_0');
   // plays the "yay" sound
   yayTune.play();
 });
