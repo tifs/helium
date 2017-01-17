@@ -110,7 +110,5 @@ $("h1,h2,h3,h4,h5,h6,p,a,li,video,img,button,figcaption").on("mouseleave", funct
     deflateTune.pause();
     deflateTune.currentTime = 0;
   });
-  // this removes the css class "shake" that i'm not using
-  // // $(this).removeClass("shake");
   clearTimeout(remove);
 });
